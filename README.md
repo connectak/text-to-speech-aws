@@ -6,7 +6,7 @@ This is a serverless **Text-to-Speech (TTS) application** built on AWS using **L
 ## AWS Services Used
 - **AWS Lambda** – Processes text and generates audio  
 - **Amazon S3** – Stores input text and output audio  
-- **Optional:** API Gateway – Trigger Lambda via HTTP  
+
 
 ## Architecture
 1. User uploads a `.txt` file to S3 (`text2talk` bucket).  
